@@ -1,0 +1,57 @@
+.gameBody{
+    margin-inline: 20%;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 10px;
+}
+
+.ballshape{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+    
+}
+
+/* shape color code */
+
+.ballshape:nth-child(4n){
+    background-color: red;
+}
+.ballshape:nth-child(9n){
+    background-color: blue;
+}
+.ballshape:nth-child(10n){
+    background-color: rgb(154, 157, 193);
+}
+
+.ballshape:nth-child(5n){
+    background-color: rgb(28, 156, 45);
+}
+.ballshape:nth-child(7n){
+    background-color: rgb(170, 196, 51);
+}
+.ballshape:nth-child(11n){
+    background-color: rgb(194, 96, 123);
+}
+.ballshape:nth-child(2){
+    background-color: rgb(13, 223, 227);
+}
+.ballshape:nth-child(23){
+    background-color: rgb(228, 5, 213);
+}
+.ballshape:nth-child(13){
+    background-color: rgb(228, 5, 213);
+}
+.ballshape:nth-child(10){
+    background-color: rgb(228, 5, 213);
+}
+.ballshape:nth-child(20){
+    background-color: rgb(228, 5, 213);
+}

@@ -1,6 +1,12 @@
+.footer{
+    margin-inline: 20%;
+    margin-top: 5%;
+}
+
 .footer ul{
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
     list-style: none;
 }
 
@@ -8,4 +14,6 @@
     border: 1px solid black;
     padding: 1px;
     border-radius: 5px;
+    text-align: center;
+    font-size:14px;
 }
