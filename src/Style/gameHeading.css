@@ -1,0 +1,14 @@
+.gameHeading{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    font-size: 30px;
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+.gameHeading div{
+    margin-left: 10px;
+}

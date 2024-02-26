@@ -1,0 +1,11 @@
+.footer ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.footer li{
+    border: 1px solid black;
+    padding: 1px;
+    border-radius: 5px;
+}
