@@ -7,7 +7,13 @@ function Header() {
         <h1>Ball Master 🏀</h1>
       </div>
       <div className="right">
-        <button className="musicButton">🎵</button>
+        🎵
+        <button className="musicButton">
+          <lable className="switch">
+            <input type="checkbox" checked></input>
+            <span className="slider round"></span>
+          </lable>
+        </button>
       </div>
     </div>
   );
