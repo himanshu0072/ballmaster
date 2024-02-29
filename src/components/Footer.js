@@ -7,13 +7,42 @@ function Footer() {
         <ul>
           <li>
             Developed by :{" "}
-            <href src="www.instagram.com" target="true">
+            <a
+              href="https://www.instagram.com/himanshu_0072/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               @himanshu_0072
-            </href>
+            </a>
           </li>
-          <li>See Portfolio 👈</li>
-          <li>LinkedIn🛜</li>
-          <li>Play Another Game🎱</li>
+          <li>
+            {" "}
+            <a
+              href="https://connectit000.000webhostapp.com/himanshu/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              See Portfolio 👈
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/himanshu-prajapati-331586207/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn🛜
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://dicerollerbyhimanshu.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Play Another Game🎱
+            </a>
+          </li>
         </ul>
       </div>
     </>
